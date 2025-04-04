@@ -1,5 +1,3 @@
-What is Contained in the Project
-
 A personal portfolio website that showcases my skills, background, and achievements. 
 
 Within the project it has:
