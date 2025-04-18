@@ -561,33 +561,7 @@ body{
 }
 
 /* Upcoming Activities */
-.activities h2 {
-    font-size: 24px;
-    color: black;
-    margin-bottom: 15px;
-}
 
-.activities ul {
-    list-style: none;
-    padding: 0;
-}
-
-.activities li {
-    background: rgba(255, 255, 255, 0.2);
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 6px;
-    font-size: 16px;
-    color: black;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .contact {
-        flex-direction: column;
-        text-align: center;
-    }
-}
 
 /* Footer Section */
 .footer {
