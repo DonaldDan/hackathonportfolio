@@ -561,32 +561,39 @@ body{
 }
 
 /* Upcoming Activities */
-.activities h2 {
-    font-size: 24px;
-    color: black;
-    margin-bottom: 15px;
+.activity-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
-
-.activities ul {
-    list-style: none;
-    padding: 0;
+.activity-circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #eee;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    text-align: center;
+    flex-shrink: 0;
 }
-
-.activities li {
-    background: rgba(255, 255, 255, 0.2);
+.activity-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: opacity 0.5s ease-in-out;
+}
+.activity-caption {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
     padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 6px;
-    font-size: 16px;
-    color: black;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .contact {
-        flex-direction: column;
-        text-align: center;
-    }
+    font-size: 1em;
 }
 
 /* Footer Section */
